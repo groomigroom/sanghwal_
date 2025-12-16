@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    
+}
+header{
+    width: 100vw;
+    height: 7vh;
+    position: absolute;
+    top: 0;
+    background-color: aquamarine;
+}
+.stuff_list{
+    width: 100vw;
+    height: 75vh;
+    position: absolute;
+    top: 9vh;
+}
+
+.stuff_list_three_box{
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+}
+.stuff_list_mini_box{
+    width: calc(100vw / 3);
+    height: 25vh;
+    border: 1px solid red;
+}
+
+footer{
+    width: 100vw;
+    height: 14vh;
+    position: absolute;
+    bottom: 0;
+    background-color: aquamarine;
+}
+.footer_buttons{
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+}
+.footer_number_button{
+    width: 20vw;
+    height: 7vh;
+    border: 1px solid red;
+}
+.footer_number_button.on{
+    background-color: black;
+}
